@@ -1,6 +1,6 @@
 # PureSlider
 
-A lightweight, no-dependency image slider library.
+A lightweight(1.6KB), no-dependency image slider library.
 
 # Screenshot
 

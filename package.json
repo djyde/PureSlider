@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack -w",
     "dist": "webpack --config ./webpack.config.dist.js -p",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +15,7 @@
   },
   "keywords": [
     "slider",
-    "carosel"
+    "carousel"
   ],
   "author": "Randy Lu <randypriv@gmail.com>",
   "license": "MIT",

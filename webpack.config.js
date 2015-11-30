@@ -13,5 +13,6 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel?presets[]=es2015'
       }
+    ]
   }
 }
