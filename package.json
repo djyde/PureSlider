@@ -2,9 +2,10 @@
   "name": "pureslider",
   "version": "0.1.0",
   "description": "Light-weight and no-dependency javascript slider.",
-  "main": "src/pureslider.js",
+  "main": "./lib/pureslider.js",
   "scripts": {
     "dev": "webpack -w",
+    "dist": "webpack --config ./webpack.config.dist.js -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,9 +23,13 @@
   },
   "homepage": "https://github.com/djyde/PureSlider#readme",
   "devDependencies": {
+    "autoprefixer": "^6.1.1",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "postcss-loader": "^0.8.0",
+    "postcss-nested": "^1.0.0",
     "webpack": "^1.12.9"
   }
 }

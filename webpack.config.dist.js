@@ -3,9 +3,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 module.exports = {
   entry: './src/pureslider.js',
   output: {
-    filename: 'pureslider.js',
-    path: './lib',
-    libraryTarget: 'commonjs2'
+    filename: 'pureslider.dist.js',
+    path: './dist'
   },
   module: {
     loaders: [
