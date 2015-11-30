@@ -1,5 +1,5 @@
 class PureSlider {
-  constructor(options){
+  constructor(options = {}){
     this.options = {
       duration: options.duration || 2000,
       actionMode: options.actionMode || 'fade'
@@ -37,4 +37,4 @@ class PureSlider {
   }
 }
 
-export default PureSlider
+module.exports = PureSlider
