@@ -1,8 +1,10 @@
 # PureSlider
 
-A lightweight(1.6KB), no-dependency image slider library.
+A lightweight, no-dependency image slider library.
 
-# Screenshot
+# Demo
+
+http://djyde.github.io/PureSlider
 
 # Install
 
@@ -45,6 +47,10 @@ options:
 # Contribution
 
 I make `PureSlider` is because I found that there is little image slider library I can use without jQuery. I just throw a brick in order to get a gem(notice that there is only one action mode yet). So contribution is very welcome. Let make `PureSlider` to be a good choice independent from jQuery.
+
+# Used by
+
+[![](https://dn-kiwistatic.qbox.me/liubai/v1/images/header-logo.jpg?imageView/2/w/300)](http://liubaiapp.com)
 
 # License
 
