@@ -4,7 +4,9 @@ module.exports = {
   entry: './src/pureslider.js',
   output: {
     filename: 'pureslider.dist.js',
-    path: './dist'
+    path: './dist',
+    library: 'PureSlider',
+    libraryTarget: 'umd'
   },
   module: {
     loaders: [
