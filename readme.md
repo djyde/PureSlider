@@ -20,6 +20,23 @@ Import the `dist/pureslider.dist.js` and link the `dist/pureslider.css`.
 
 # Usage
 
+```html
+<div id="pure-slider">
+  <div class="ps-item">
+    <img src="foo.jpg" >
+  </div>
+  <div class="ps-item">
+    <img src="foo.jpg" >
+  </div>
+  <div class="ps-item">
+    <img src="foo.jpg" >
+  </div>
+  <div class="ps-item">
+    <img src="foo.jpg" >
+  </div>
+</div>
+```
+
 ```javascript
 
 import 'pureslider/src/pureslider.css' // Or any other way linking the stylesheet
@@ -31,7 +48,7 @@ const slider = new PureSlider({ /** options **/ })
 slider.slide() // start the slider
 ```
 
-# API(unstable)
+# API
 
 ## PureSlider([,options])
 
