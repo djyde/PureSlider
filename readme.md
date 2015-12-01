@@ -1,5 +1,9 @@
 # PureSlider
 
+[![npm](https://img.shields.io/npm/dt/pureslider.svg?style=flat-square)](https://www.npmjs.com/package/pureslider)
+[![npm](https://img.shields.io/npm/v/pureslider.svg?style=flat-square)](https://www.npmjs.com/package/pureslider)
+[![npm](https://img.shields.io/npm/l/pureslider.svg?style=flat-square)](https://www.npmjs.com/package/pureslider)
+
 A lightweight, no-dependency image slider library.
 
 # Demo
