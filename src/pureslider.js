@@ -1,8 +1,11 @@
 class PureSlider {
-  constructor(options = {}){
+  constructor({
+    duration = 2000,
+    actionMode = 'fade'
+  } = {}){
     this.options = {
-      duration: options.duration || 2000,
-      actionMode: options.actionMode || 'fade'
+      duration,
+      actionMode
     }
     this.el = document.querySelector('#pure-slider')
     this.activeIndex = 0
@@ -10,7 +13,6 @@ class PureSlider {
   }
 
   slide(){
-
     const actionMode = {
       // All action modes (how it works, what it will do) should be defined in this object
       fade: () => {
@@ -27,9 +29,8 @@ class PureSlider {
         }, this.options.duration)
       }
     }
-
     if (actionMode[this.options.actionMode]) {
-      actionMode[this.options.actionMode]()      
+      actionMode[this.options.actionMode]()
     } else {
       actionMode.fade()
       console.warn(this.options.actionMode, 'is not a valid action mode')
