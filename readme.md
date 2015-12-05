@@ -67,7 +67,7 @@ options:
 
 # Contribution
 
-I make `PureSlider` is because I found that there is little image slider library I can use without jQuery. I just throw a brick in order to get a gem(notice that there is only one action mode yet). So contribution is very welcome. Let make `PureSlider` to be a good choice independent from jQuery.
+I made `PureSlider` because I found that there aren't many image slider libraries I can use without jQuery. Note there is only one action mode right now, so pull requests are very welcome. Let's make `PureSlider` a good choice for staying independent from jQuery.
 
 # Used by
 
